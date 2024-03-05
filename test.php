@@ -13,18 +13,19 @@ class Fruit {
 
   // Methods
   function set_name($name) {
-    $this->names = $name;
+    $this->name = $name;
   }
+
+
   function get_name() {
-    return $this->name;
-    return $this->namessss;
+    return $this->name/0;
   }
 }
 
 $apple = new Fruit();
 $banana = new Fruit();
 $apple->set_name('Apple');
-$banana->set_name('Banana');
+$banana->set_name(0);
 
 echo $apple->get_name();
 echo "<br>";
