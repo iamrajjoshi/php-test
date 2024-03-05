@@ -16,7 +16,7 @@ class Fruit {
     $this->names = $name;
   }
   function get_name() {
-    $this->name = 'hi';
+    $this->name = 'bye';
     return $this->names;
   }
 }
