@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sentry/sentry": "^4.6",
+        "sentry/sdk": "^4.0"
+    }
+}
