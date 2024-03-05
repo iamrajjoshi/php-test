@@ -6,7 +6,7 @@ require_once 'vendor/autoload.php'; // Include Composer's autoload
     // Specify a fixed sample rate
     'traces_sample_rate' => 1.0,
   ]);   
-  
+
 class Fruit {
   // Properties
   public $name;
@@ -14,6 +14,7 @@ class Fruit {
 
   // Methods
   function set_name($name) {
+    $this->namesss = $name;
     $this->names = $name;
   }
   function get_name() {
