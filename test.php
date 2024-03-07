@@ -13,10 +13,11 @@ class Fruit {
 
   // Methods
   function set_name($name) {
-    $this->names = $name;
+
+    $this->names = $namesssss;
   }
   function get_name() {
-    return $this->name;
+    return $this->namessssssssssssssssssssssssssss;
   }
 }
 
